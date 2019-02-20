@@ -1,1 +1,0 @@
-{"virtualbox":{"/desenv_config/":{"guestpath":"/desenv_config","hostpath":"/Users/mocbezerra/mateus/machines/desenv","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/mocbezerra/mateus/machines/desenv","disabled":false,"__vagrantfile":true}}}
