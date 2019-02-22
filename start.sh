@@ -1,3 +1,5 @@
+# Configurar apt-get
+sed -i -e 's/archive/br.archive/g' /etc/apt/sources.list
 apt-get update -y
 apt-get upgrade -y
 
@@ -9,7 +11,5 @@ apt-get install vim -y
 git config --global user.name "Mateus Bezerra"
 git config --global user.email "mocbezerra@gmail.com"
 
-
 # Configurações Vim
 echo "alias vim=\"vim -u /desenv_config/.vimrc\"" >> ~/.bashrc
-
